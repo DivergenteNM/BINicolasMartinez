@@ -1,0 +1,5 @@
+Buenas noches,  con respecto a la consulta de "Consulta: como se agregaría un nodo de Execute SQL script para ejecutar un 
+select que filtre por el CustormerID", lo que  realice fue a todo el procedimiento le conecte lo que era el sql execute script, 
+escribí la consulta "SELECT * FROM Customers WHERE CustomerID = ?" y eso lo uní a un text file output, debido que sin el text file 
+output daba error, pero con el text file output no sale error pero no se puede visualizar la consulta debido según encontré que normalmente 
+el sql execute script se usa para query para modificar la base de dato más no para hacer consultas 
